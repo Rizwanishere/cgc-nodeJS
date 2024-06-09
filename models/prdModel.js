@@ -1,13 +1,13 @@
 const mongoose = require('mongoose');
 
 const schema = new mongoose.Schema({
-    model: {
-        type:String, 
-        required: [true,'Model is required']
-    },
     brand: {
         type:String, 
         required: [true,'Brand is required']
+    },
+    model: {
+        type:String, 
+        required: [true,'Model is required']
     },
     price: {
         type:Number,
