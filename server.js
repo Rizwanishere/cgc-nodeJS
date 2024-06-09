@@ -45,7 +45,7 @@ app.use(express.static('uploads/'));
 app.use(homeRoutes);
 app.use('/users',userRoutes);
 
-// app.use(auth.basicAuth);
+// app.use(auth.basicAuth)
 app.use(auth.tokenAuth);
 
 app.use(bookRoutes);
